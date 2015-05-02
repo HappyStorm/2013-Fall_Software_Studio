@@ -1,0 +1,18 @@
+{
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED",
+    "error": "No class path info available for \u0027C:\\Program Files\\Java\\jre7\\lib\\rt.jar\u0027. Skipped."
+  },
+  "C:\\Users\\user\\Desktop\\Lab2\\LotteryLab\\src": {
+    "location": "C:\\Users\\user\\Desktop\\Lab2\\LotteryLab\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\user\\Desktop\\Lab2\\LotteryLab\\src\u0027. Skipped."
+  },
+  "C:\\Users\\user\\Desktop\\Numgenerator.jar": {
+    "location": "C:\\Users\\user\\Desktop\\Numgenerator.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\user\\Desktop\\Numgenerator.jar\u0027. Neither fingerprint \u0027f2e12de33dfd042116cd94051e4026ce33114d86\u0027 nor symbolic name \u0027Numgenerator\u0027 are known."
+  }
+}

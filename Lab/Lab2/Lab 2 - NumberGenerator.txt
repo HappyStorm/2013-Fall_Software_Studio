@@ -1,0 +1,27 @@
+import java.util.Random;
+public class NumberGenerator {
+	
+	
+	public static int[] generateWinningNumbers(int from, int to, int count){
+		int[] array = new int[count];
+		int now = 0;
+		Random random = new Random();
+		
+		while(now != count){
+			int f = 0;
+			int randNum = random.nextInt(to)+1;
+			
+			for(int i = 0; i <now; i++)
+			{
+				if(randNum == array[i]) {
+					f = 1;
+					break;
+				}
+			}
+			if(f == 0)array[now++] = randNum;
+			
+			else continue;
+		}
+		return array;	
+	}
+}

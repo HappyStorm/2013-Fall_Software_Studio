@@ -1,0 +1,23 @@
+
+public class LotteryTicket {
+
+	private class int[] pickedNumbers
+	{
+		
+	}
+	
+	public void LotteryTickets(int[] numbers)
+	{
+		int[] Ticket = new int[];
+	}
+	
+	public void raffle(int[] winningnumbers)
+	{
+		int bingo;
+		
+		for(int i=0 ; i< ; i++)
+		{
+			
+		}
+	}
+}
