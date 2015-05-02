@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/target/netdb-ask-0.0.1-SNAPSHOT/WEB-INF/classes/netdb/courses/softwarestudio/qaqserver/mvc"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="ModelAwareServlet.class"
+   checksum="0f0ac91fc21d0ee952505bdd8b580e21"
+   last-author="101062319"
+   text-time="2014-01-17T11:12:27.504000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:05.206000Z"/>
+<entry
+   name="control"
+   kind="dir"/>
+<entry
+   name="model"
+   kind="dir"/>
+<entry
+   name="view"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/target/netdb-ask-0.0.1-SNAPSHOT/WEB-INF/classes/netdb/courses/softwarestudio/asksite/mvc/control"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="CommentController.class"
+   checksum="3cd125212cd6ba292ca00d6f1c1efe7e"
+   last-author="101062319"
+   text-time="2014-01-12T11:18:39.779000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:05.187000Z"/>
+<entry
+   name="DefinitionController.class"
+   checksum="37f43e1740a68efc9e4e0b14fa480509"
+   last-author="101062319"
+   text-time="2014-01-12T11:18:39.775000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.913000Z"/>
+<entry
+   name="ResourceController.class"
+   checksum="4df9bb69ee14f817f8f93b9413afc09f"
+   last-author="101062319"
+   text-time="2014-01-12T11:18:39.771000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:05.085000Z"/>
+</wc-entries>

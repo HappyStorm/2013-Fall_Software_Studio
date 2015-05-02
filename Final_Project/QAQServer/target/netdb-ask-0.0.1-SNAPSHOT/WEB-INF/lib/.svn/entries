@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/target/netdb-ask-0.0.1-SNAPSHOT/WEB-INF/lib"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="appengine-api-1.0-sdk-1.8.8.jar"
+   checksum="b7e105162d44905479507672eeb31e92"
+   last-author="101062319"
+   text-time="2014-01-02T08:43:52.794000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:05.241000Z"/>
+<entry
+   name="commons-logging-1.1.1.jar"
+   checksum="ed448347fc0104034aa14c8189bf37de"
+   last-author="101062319"
+   text-time="2013-12-10T05:30:27.899000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.753000Z"/>
+<entry
+   name="guava-14.0.1.jar"
+   checksum="58553f87d83b9f8ec74bd3529083ee2f"
+   last-author="101062319"
+   text-time="2014-01-06T11:37:24.991000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.641000Z"/>
+<entry
+   name="jackson-core-asl-1.6.2.jar"
+   checksum="2a60c9a51c9f5414117ec62ec3bf101a"
+   last-author="101062319"
+   text-time="2013-12-24T14:26:00.910000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.735000Z"/>
+<entry
+   name="jackson-mapper-asl-1.6.2.jar"
+   checksum="f490245710e43fc4f25ce49c759dabe2"
+   last-author="101062319"
+   text-time="2013-12-24T14:26:02.438000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:05.039000Z"/>
+<entry
+   name="objectify-4.0b3.jar"
+   checksum="ed159d854d193a93e78a9ad6ab93d60c"
+   last-author="101062319"
+   text-time="2014-01-06T11:37:05.695000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.450000Z"/>
+<entry
+   name="persistence-api-1.0.jar"
+   checksum="aeb56ad8210370d0cd5c0e995eb0d16c"
+   last-author="101062319"
+   text-time="2014-01-06T11:37:03.120000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.682000Z"/>
+</wc-entries>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/src/main/java/netdb/courses/softwarestudio/qaqserver/mvc/view"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="DefinitionJsonView.java"
+   revision="12145"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="Http400BadRequestView.java"
+   checksum="747527cc6a3cb55a4b2c569296d82d62"
+   last-author="101062319"
+   committed-rev="12126"
+   text-time="2014-01-17T11:13:20.178000Z"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="Http404NotFoundView.java"
+   checksum="e74eab6f9158cc5b8506a9a65b647791"
+   last-author="101062319"
+   committed-rev="12126"
+   text-time="2014-01-17T11:13:20.170000Z"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="Http406NotAcceptableView.java"
+   checksum="8573b82040c27efb1b539c4500a47b15"
+   last-author="101062319"
+   committed-rev="12126"
+   text-time="2014-01-17T11:13:20.162000Z"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="QuestionJsonView.java"
+   revision="12145"
+   checksum="1f670d97a1b8dfd82cfa385050af0da6"
+   last-author="101062319"
+   committed-rev="12145"
+   text-time="2014-01-17T14:10:27.980000Z"
+   kind="file"
+   committed-date="2014-01-17T14:01:29.255000Z"/>
+<entry
+   name="SpeechJsonView.java"
+   revision="12207"
+   checksum="f238ec640654b91c2b3f749c4b4113e8"
+   last-author="101062319"
+   text-time="2014-01-18T09:05:28.724000Z"
+   committed-rev="12207"
+   kind="file"
+   committed-date="2014-01-18T08:54:35.554000Z"/>
+</wc-entries>

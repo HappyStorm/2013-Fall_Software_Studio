@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/question_item_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:shadowColor="#ff000000"  
+	    android:shadowDx="0.5"  
+	    android:shadowDy="0.5"       
+	    android:shadowRadius="0.1"/>
+
+    <TextView
+        android:id="@+id/question_item_Content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/question_item_Title"
+        android:layout_below="@+id/question_item_Title"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/question_item_like_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/question_item_Like"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/question_item_Like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question_item_Title"
+        android:layout_marginRight="38dp"
+        android:layout_toLeftOf="@+id/question_item_like_num"
+        android:text="@string/question_item_like"
+        android:gravity="bottom"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

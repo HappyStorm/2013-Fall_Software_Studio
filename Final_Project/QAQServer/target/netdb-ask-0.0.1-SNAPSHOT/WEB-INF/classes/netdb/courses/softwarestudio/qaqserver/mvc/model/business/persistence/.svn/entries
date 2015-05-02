@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/target/netdb-ask-0.0.1-SNAPSHOT/WEB-INF/classes/netdb/courses/softwarestudio/qaqserver/mvc/model/business/persistence"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="CommentDao$1.class"
+   checksum="22230f9a7f951c5179460fc6a82ba899"
+   last-author="101062319"
+   text-time="2014-01-17T11:13:08.501000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.380000Z"/>
+<entry
+   name="CommentDao.class"
+   checksum="f01658c7cbd1a212a65b83556dbac268"
+   last-author="101062319"
+   text-time="2014-01-17T11:13:08.507000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.868000Z"/>
+<entry
+   name="DefinitionDao.class"
+   checksum="1e747e9d711884f8fadaa64612aebdb8"
+   last-author="101062319"
+   text-time="2014-01-17T11:13:35.557000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.590000Z"/>
+<entry
+   name="DefinitionWikiParser.class"
+   checksum="cf11a3fc85ae1be10322170933940c31"
+   last-author="101062319"
+   text-time="2014-01-17T11:12:48.610000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.773000Z"/>
+</wc-entries>

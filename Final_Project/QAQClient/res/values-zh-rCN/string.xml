@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Main</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+
+    <string name="title_activity_speech_search">   《搜寻演讲》</string>
+    <string name="title_activity_welcome">   欢迎来到 QAQ   </string>
+    <string name="title_activity_build_speech">   《建立你的演讲》</string>
+    <string name="title_activity_speech_index">   《演讲首页》</string>
+    <string name="title_activity_speech_info">   《演讲信息》</string>
+    <string name="title_activity_add_question">   《发问你的问题》</string>
+    <string name="title_activity_question_info">   《问题信息》</string>
+
+    
+    
+    <string name="welcome_search_textbutton">search</string>
+    
+    
+    
+    <string name="main_search_textbutton">搜寻</string>
+    <string name="main_build_textbutton">建立</string>
+    <string name="main_exit_textbutton">离开</string>
+    
+    
+    
+    <string name="speech_search_find_button">寻找!</string>
+    <string name="speech_search_back_button">←返回</string>
+    <string name="speech_search_menu_list_date">date</string>
+    <string name="speech_search_menu_list_name">name</string>
+    <string name="speech_search_menu_search">search</string>
+    <string name="speech_search_menu_search_hint">触摸以输入演讲名称</string>
+    <string name="speech_search_distance">远</string>
+    <string name="speech_search_date">日期 :</string>
+    
+    
+    
+	<string name="speech_build_index">※ 建立演讲 ※ </string>
+	<string name="speech_build_topic">演讲主题 : </string>
+	<string name="speech_build_speaker">讲者 : </string>
+	<string name="speech_build_description">基本叙述 : </string>
+    <string name="speech_build_build_button">建立吧!</string>
+    <string name="speech_build_cancel_button">取消</string>
+    <string name="speech_build_reset_button">重设</string>
+    <string name="speech_build_topic_hint">请输入演讲主题</string>
+    <string name="speech_build_speaker_hint">请输入讲者姓名</string>
+    <string name="speech_build_description_hint">请输入演讲基本信息</string>
+    
+    
+    
+    <string name="speech_index_topic"></string>
+    <string name="speech_index_speaker"></string>
+    <string name="speech_index_description"></string>
+    <string name="speech_index_back_Button">←返回</string>
+    
+    
+    
+    
+    <string name="speech_info_index">《演讲信息》</string>
+    <string name="speech_info_topic">主题:</string>
+    <string name="speech_info_speaker">讲者:</string>
+    <string name="speech_info_description">基本数据:</string>
+    <string name="speech_info_topic_content"></string>
+    <string name="speech_info_speaker_content"></string>
+    <string name="speech_info_description_content"></string>
+    <string name="speech_info_latitude">纬度: </string>
+    <string name="speech_info_longitude">经度: </string>
+    <string name="speech_info_latitude_content"></string>
+    <string name="speech_info_longitude_content"></string>
+    <string name="speech_info_back_button">←返回</string>
+    
+    
+    
+    <string name="add_question_index">※ 问问题 ※</string>
+    <string name="add_question_ask_button">问吧!</string>
+    <string name="add_question_cancel_button">取消</string>
+    <string name="add_question_reset_button">重设</string>
+    <string name="add_question_title">标题 :</string>
+    <string name="add_question_content">内容 :</string>
+    <string name="add_question_add_icon">Add</string>
+    <string name="add_question_title_hint">请输入问题标题</string>
+    <string name="add_question_content_hint">请输入问题内容</string>
+    
+    
+    
+    <string name="question_info_index">《问题信息》</string>
+    <string name="question_info_like_button">Me too!</string>
+    <string name="question_info_like_button_like">想问</string>
+    <string name="question_info_like_button_dislike">不想问了</string>
+    <string name="question_info_back_button">←返回</string>
+    <string name="question_info_title">标题</string>
+    <string name="question_info_text">内容</string>
+    <string name="question_info_title_content"></string>
+    <string name="question_info_text_content"></string>
+    
+    <string name="question_item_like">想问人数 : </string>
+    
+</resources>

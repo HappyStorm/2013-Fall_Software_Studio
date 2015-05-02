@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/src/main/java/netdb/courses/softwarestudio/qaqserver/service"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="ServiceException.java"
+   checksum="a2999a878cbe54a62853a73a89c4b486"
+   last-author="101062319"
+   text-time="2014-01-17T11:13:35.167000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="json"
+   kind="dir"/>
+<entry
+   name="objectify"
+   kind="dir"/>
+<entry
+   name="wiki"
+   kind="dir"
+   deleted="true"/>
+</wc-entries>

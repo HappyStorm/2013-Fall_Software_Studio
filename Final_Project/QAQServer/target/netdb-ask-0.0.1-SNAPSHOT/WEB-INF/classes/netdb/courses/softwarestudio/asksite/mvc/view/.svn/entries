@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/target/netdb-ask-0.0.1-SNAPSHOT/WEB-INF/classes/netdb/courses/softwarestudio/asksite/mvc/view"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="CommentJsonView.class"
+   checksum="3fab0602b9ba5fe7f55d8132f27b6902"
+   last-author="101062319"
+   text-time="2014-01-12T11:18:39.733000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.488000Z"/>
+<entry
+   name="DefinitionJsonView.class"
+   checksum="0dfb523024e8e9560439c3aee8912bf1"
+   last-author="101062319"
+   text-time="2014-01-12T11:18:39.731000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.525000Z"/>
+<entry
+   name="Http400BadRequestView.class"
+   checksum="1bf4916ca9dfb147d16e730cbccea522"
+   last-author="101062319"
+   text-time="2014-01-12T11:18:39.726000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.709000Z"/>
+<entry
+   name="Http404NotFoundView.class"
+   checksum="06628cc33f79ff9c76c6e2bef9291a7e"
+   last-author="101062319"
+   text-time="2014-01-12T11:18:39.724000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.390000Z"/>
+<entry
+   name="Http406NotAcceptableView.class"
+   checksum="d37dc45181f7e14d6d1924404fa2a721"
+   last-author="101062319"
+   text-time="2014-01-12T11:18:39.722000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.784000Z"/>
+</wc-entries>

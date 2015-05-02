@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12678"
+   last-author="101062319"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/res/menu"
+   committed-rev="12527"
+   kind="dir"
+   committed-date="2014-01-21T13:45:44.241314Z"/>
+<entry
+   name="add_question.xml"
+   checksum="2a325e8d90b94e669dba19c276b11934"
+   last-author="101062319"
+   text-time="2014-01-21T13:45:43.724000Z"
+   committed-rev="12527"
+   kind="file"
+   committed-date="2014-01-21T13:45:44.241000Z"/>
+<entry
+   name="build_speech.xml"
+   checksum="c4b03c4071c8091e031224f86cdfe6a0"
+   last-author="101062319"
+   text-time="2014-01-21T13:43:55.140000Z"
+   committed-rev="12527"
+   kind="file"
+   committed-date="2014-01-21T13:45:44.241000Z"/>
+<entry
+   name="main.xml"
+   checksum="2a325e8d90b94e669dba19c276b11934"
+   last-author="101062319"
+   text-time="2014-01-21T13:44:53.901000Z"
+   committed-rev="12527"
+   kind="file"
+   committed-date="2014-01-21T13:45:44.241000Z"/>
+<entry
+   name="question_info.xml"
+   checksum="db59a82ecd7a4076cf0debb9d61f4540"
+   last-author="101062319"
+   text-time="2014-01-21T13:44:46.627000Z"
+   committed-rev="12527"
+   kind="file"
+   committed-date="2014-01-21T13:45:44.241000Z"/>
+<entry
+   name="speech_index.xml"
+   checksum="b7b9915e75cf64a2b6f13e4d32d0b054"
+   last-author="101062319"
+   text-time="2014-01-21T13:44:39.398000Z"
+   committed-rev="12527"
+   kind="file"
+   committed-date="2014-01-21T13:45:44.241000Z"/>
+<entry
+   name="speech_info.xml"
+   checksum="db59a82ecd7a4076cf0debb9d61f4540"
+   last-author="101062319"
+   text-time="2014-01-21T13:44:21.603000Z"
+   committed-rev="12527"
+   kind="file"
+   committed-date="2014-01-21T13:45:44.241000Z"/>
+<entry
+   name="speech_search.xml"
+   checksum="9ab9a34a04fff5eb5ef7aa77243c1d8f"
+   last-author="101062319"
+   text-time="2014-01-21T13:43:40.892000Z"
+   committed-rev="12527"
+   kind="file"
+   committed-date="2014-01-21T13:45:44.241000Z"/>
+<entry
+   name="welcome.xml"
+   checksum="c508a613b661f8ea0fd7570763aeaaec"
+   last-author="101062319"
+   text-time="2014-01-21T13:44:13.251000Z"
+   committed-rev="12527"
+   kind="file"
+   committed-date="2014-01-21T13:45:44.241000Z"/>
+</wc-entries>

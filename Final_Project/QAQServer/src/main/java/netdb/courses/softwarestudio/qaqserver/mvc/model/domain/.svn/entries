@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/src/main/java/netdb/courses/softwarestudio/qaqserver/mvc/model/domain"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="Definition.java"
+   revision="12145"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="Question.java"
+   revision="12620"
+   checksum="e8e16c2d2f6458953ba429fcf8ab00ef"
+   last-author="101062319"
+   text-time="2014-01-22T03:26:04.695000Z"
+   committed-rev="12620"
+   kind="file"
+   committed-date="2014-01-22T09:41:36.614000Z"/>
+<entry
+   name="Speech.java"
+   revision="12724"
+   checksum="9571681b4b80992b5162317f603f39e0"
+   last-author="101062319"
+   committed-rev="12724"
+   text-time="2014-01-23T01:21:42.200000Z"
+   kind="file"
+   committed-date="2014-01-23T01:32:59.924000Z"/>
+</wc-entries>

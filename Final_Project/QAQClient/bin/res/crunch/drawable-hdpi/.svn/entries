@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12678"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/bin/res/crunch/drawable-hdpi"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   committed-rev="12596"
+   kind="dir"
+   committed-date="2014-01-22T07:19:15.118528Z"/>
+<entry
+   name="ic_launcher.png"
+   checksum="e60ebd53545290710a7835c56e47fb63"
+   last-author="101062319"
+   committed-rev="12281"
+   text-time="2014-01-19T10:02:20.059000Z"
+   kind="file"
+   committed-date="2014-01-19T11:25:39.125000Z"
+   prop-time="2014-01-19T11:37:43.345000Z"/>
+<entry
+   name="ic_like_button.png"
+   checksum="4f83cc1785806c33d0e2a5902b17429c"
+   last-author="101062319"
+   committed-rev="12281"
+   text-time="2014-01-19T10:02:20.072000Z"
+   kind="file"
+   committed-date="2014-01-19T11:25:39.125000Z"
+   prop-time="2014-01-19T11:37:43.121000Z"/>
+<entry
+   name="icon.png"
+   checksum="17aed10f37d5b4ba51df266dc0210eae"
+   last-author="101062319"
+   committed-rev="12408"
+   text-time="2014-01-20T14:42:35.406000Z"
+   kind="file"
+   committed-date="2014-01-20T14:47:20.181000Z"
+   prop-time="2014-01-20T14:59:11.977000Z"/>
+<entry
+   name="speech.png"
+   checksum="83ad2c7355e4f8acdaa2f4daaf626eeb"
+   last-author="101062319"
+   text-time="2014-01-22T03:48:17.575000Z"
+   committed-rev="12565"
+   kind="file"
+   committed-date="2014-01-22T03:48:17.575031Z"
+   prop-time="2014-01-22T06:07:50.136000Z"/>
+<entry
+   name="speechicon.png"
+   checksum="e4bc720655e38acf8b16fe2b72a98ff3"
+   last-author="101062319"
+   text-time="2014-01-22T07:19:15.118000Z"
+   committed-rev="12596"
+   kind="file"
+   committed-date="2014-01-22T07:19:15.118528Z"
+   prop-time="2014-01-22T07:19:48.369000Z"/>
+<entry
+   name="speechview.png"
+   checksum="3aa4d6c996ffd78498706a73bb56987c"
+   last-author="101062319"
+   text-time="2014-01-22T03:48:17.575000Z"
+   committed-rev="12565"
+   kind="file"
+   committed-date="2014-01-22T03:48:17.575031Z"
+   prop-time="2014-01-22T06:07:50.128000Z"/>
+</wc-entries>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/.settings"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="org.eclipse.core.resources.prefs"
+   checksum="2c75d6fca3732963770acf70774e59a4"
+   last-author="101062319"
+   text-time="2014-01-17T11:03:09.952000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="org.eclipse.jdt.core.prefs"
+   checksum="4da768df49483946a6471ea0130e1daa"
+   last-author="101062319"
+   text-time="2013-12-24T14:26:04.575000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="org.eclipse.m2e.core.prefs"
+   checksum="66985cccd6a27c2401be11bc75d9ea23"
+   last-author="101062319"
+   text-time="2013-12-24T14:26:04.575000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+</wc-entries>

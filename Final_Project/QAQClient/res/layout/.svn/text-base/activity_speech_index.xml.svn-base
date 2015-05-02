@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:paddingBottom="@dimen/activity_vertical_margin"
+			    android:paddingLeft="@dimen/activity_horizontal_margin"
+			    android:paddingRight="@dimen/activity_horizontal_margin"
+			    android:paddingTop="@dimen/activity_vertical_margin"
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+			    android:background="@drawable/information"
+			    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/speech_index_SpeechSpeaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_index_SpeechTopic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/speech_index_SpeechDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_index_SpeechSpeaker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="17sp" />
+
+    <ListView
+        android:id="@+id/speech_index_QuestionListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_index_SpeechDescription"
+        android:layout_marginTop="20dp" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/speech_index_SpeechTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_index_backB_utton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:onClick="info"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" 
+        android:shadowColor="#ff000000"  
+	    android:shadowDx="0.5"  
+	    android:shadowDy="0.5"       
+	    android:shadowRadius="0.1"/>
+
+    <TextView
+        android:id="@+id/speech_index_backB_utton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_index_QuestionListView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:clickable="true"
+        android:onClick="back"
+        android:text="@string/speech_index_back_Button"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/LightYellow"
+        android:textStyle="bold"
+        android:textSize="20sp" 
+        android:shadowColor="#ff000000"  
+	    android:shadowDx="2"  
+	    android:shadowDy="2"       
+	    android:shadowRadius="1"/>
+
+</RelativeLayout>

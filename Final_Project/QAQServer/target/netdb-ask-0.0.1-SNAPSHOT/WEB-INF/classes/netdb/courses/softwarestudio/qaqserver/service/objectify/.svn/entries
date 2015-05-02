@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/target/netdb-ask-0.0.1-SNAPSHOT/WEB-INF/classes/netdb/courses/softwarestudio/qaqserver/service/objectify"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="ObjectifyInitializer.class"
+   revision="12286"
+   checksum="17e751171edf49a855f22356569d3687"
+   last-author="101062319"
+   committed-rev="12286"
+   text-time="2014-01-17T13:35:02.950000Z"
+   kind="file"
+   committed-date="2014-01-19T12:38:05.345000Z"
+   prop-time="2014-01-17T13:26:05.116000Z"/>
+</wc-entries>

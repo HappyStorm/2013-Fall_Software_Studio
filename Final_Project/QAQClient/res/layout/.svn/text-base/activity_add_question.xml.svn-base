@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    		xmlns:tools="http://schemas.android.com/tools"
+     		android:layout_width="match_parent"
+     		android:layout_height="match_parent"
+     		android:scrollbars="vertical"	 
+     		android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+	<RelativeLayout 
+    
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin" >
+
+		    <TextView
+		        android:id="@+id/question_add_Index"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="10dp"
+		        android:text="@string/add_question_index"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:textSize="30sp" />
+
+			<TextView
+			    android:id="@+id/question_add_Title"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignLeft="@+id/question_add_TitleEdit"
+			    android:layout_below="@+id/question_add_Index"
+			    android:layout_marginTop="20dp"
+			    android:text="@string/add_question_title"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textSize="25sp" />
+
+		    <TextView
+		        android:id="@+id/question_add_Content"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/question_add_TitleEdit"
+		        android:layout_below="@+id/question_add_TitleEdit"
+		        android:layout_marginTop="20dp"
+		        android:text="@string/add_question_content"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:textSize="25sp" />
+		    
+		    <EditText
+		        android:id="@+id/question_add_TitleEdit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/question_add_ContentEdit"
+		        android:layout_below="@+id/question_add_Title"
+		        android:layout_marginTop="15dp"
+		        android:ems="10"
+		        android:hint="@string/add_question_title_hint"
+		        android:inputType="text"
+		        android:singleLine="true"
+		        android:textSize="20sp" >
+		    </EditText>
+		
+		    <EditText
+		        android:id="@+id/question_add_ContentEdit"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/question_add_Content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="15dp"
+		        android:ems="10"
+		        android:hint="@string/add_question_content_hint"
+		        android:inputType="textMultiLine"
+		        android:textSize="20sp" />
+		
+		    
+		    
+		    <TextView
+		        android:id="@+id/add_question_ask_Button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/question_add_ContentEdit"
+		        android:layout_below="@+id/question_add_ContentEdit"
+		        android:layout_marginTop="78dp"
+		        android:text="@string/add_question_ask_button"
+		        android:textAppearance="?android:attr/textAppearanceLarge" 
+		        android:clickable="true"/>
+		    <TextView
+		        android:id="@+id/add_question_cancel_Button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBaseline="@+id/add_question_ask_Button"
+		        android:layout_alignBottom="@+id/add_question_ask_Button"
+		        android:layout_alignRight="@+id/question_add_ContentEdit"
+		        android:text="@string/add_question_cancel_button"
+		        android:textAppearance="?android:attr/textAppearanceLarge" 
+		        android:clickable="true"/>
+		
+		    <TextView
+		        android:id="@+id/add_question_reset_Button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBaseline="@+id/add_question_cancel_Button"
+		        android:layout_alignBottom="@+id/add_question_cancel_Button"
+		        android:layout_centerHorizontal="true"
+		        android:clickable="true"
+		        android:text="@string/add_question_reset_button"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</RelativeLayout>
+</ScrollView>

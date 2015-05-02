@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/src/main/java/netdb/courses/softwarestudio/qaqserver/mvc/control"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="DefinitionController.java"
+   revision="12145"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="QuestionController.java"
+   revision="12620"
+   checksum="6cd1c54266e518fa4bd77af4147dddf1"
+   last-author="101062319"
+   text-time="2014-01-22T02:31:35.751000Z"
+   committed-rev="12620"
+   kind="file"
+   committed-date="2014-01-22T09:41:36.614000Z"/>
+<entry
+   name="ResourceController.java"
+   checksum="8bc1b1c5b52a53220e64b2c1eb20153b"
+   last-author="101062319"
+   text-time="2014-01-17T11:12:27.251000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="SpeechController.java"
+   revision="12429"
+   checksum="400be4c9da4f5fcdf9c85bb1cdd20ad0"
+   last-author="101062319"
+   committed-rev="12429"
+   text-time="2014-01-20T14:45:20.567000Z"
+   kind="file"
+   committed-date="2014-01-21T03:12:30.072000Z"/>
+</wc-entries>

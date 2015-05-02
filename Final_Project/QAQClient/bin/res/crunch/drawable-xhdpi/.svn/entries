@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12678"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/bin/res/crunch/drawable-xhdpi"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   committed-rev="12638"
+   kind="dir"
+   committed-date="2014-01-22T11:18:06.916849Z"/>
+<entry
+   name="ic_launcher.png"
+   checksum="d801cbebdc1322d692f58bfdcf992434"
+   last-author="101062319"
+   committed-rev="12281"
+   text-time="2014-01-19T10:02:20.138000Z"
+   kind="file"
+   committed-date="2014-01-19T11:25:39.125000Z"
+   prop-time="2014-01-19T11:37:43.229000Z"/>
+<entry
+   name="ic_like_button.png"
+   checksum="598b33d033edb356f87f325150c414d4"
+   last-author="101062319"
+   committed-rev="12281"
+   text-time="2014-01-19T10:02:20.158000Z"
+   kind="file"
+   committed-date="2014-01-19T11:25:39.125000Z"
+   prop-time="2014-01-19T11:37:43.174000Z"/>
+<entry
+   name="icon.png"
+   checksum="e17dfaf340f7d65bf919d6890a992003"
+   last-author="101062319"
+   committed-rev="12408"
+   text-time="2014-01-20T14:42:35.422000Z"
+   kind="file"
+   committed-date="2014-01-20T14:47:20.181000Z"
+   prop-time="2014-01-20T14:59:11.939000Z"/>
+<entry
+   name="like.png"
+   checksum="f148aeb748e95aeb163dad2288fbc942"
+   last-author="101062319"
+   committed-rev="12638"
+   text-time="2014-01-22T11:18:06.916000Z"
+   kind="file"
+   committed-date="2014-01-22T11:18:06.916849Z"
+   prop-time="2014-01-22T11:34:04.252000Z"/>
+<entry
+   name="speech.png"
+   checksum="750e339e856c01809330c889c73d5650"
+   last-author="101062319"
+   text-time="2014-01-22T03:48:17.575000Z"
+   committed-rev="12565"
+   kind="file"
+   committed-date="2014-01-22T03:48:17.575031Z"
+   prop-time="2014-01-22T06:07:50.316000Z"/>
+<entry
+   name="speechicon.png"
+   checksum="003741ae41db231aa3fed01e69e185c5"
+   last-author="101062319"
+   text-time="2014-01-22T07:19:15.118000Z"
+   committed-rev="12596"
+   kind="file"
+   committed-date="2014-01-22T07:19:15.118528Z"
+   prop-time="2014-01-22T07:19:48.517000Z"/>
+<entry
+   name="speechview.png"
+   checksum="12229a6d93a6ffd19951b2dde81f170a"
+   last-author="101062319"
+   text-time="2014-01-22T03:48:17.575000Z"
+   committed-rev="12565"
+   kind="file"
+   committed-date="2014-01-22T03:48:17.575031Z"
+   prop-time="2014-01-22T06:07:50.310000Z"/>
+</wc-entries>

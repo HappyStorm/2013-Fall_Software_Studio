@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12678"
+   last-author="101062319"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/src/com/example/qaqclient"
+   committed-rev="12677"
+   kind="dir"
+   committed-date="2014-01-22T16:38:46.359928Z"/>
+<entry
+   name="AddQuestionActivity.java"
+   checksum="6f590e04545207555b3b8fac6ca978e6"
+   last-author="101062319"
+   committed-rev="12331"
+   text-time="2014-01-20T05:39:15.081000Z"
+   kind="file"
+   committed-date="2014-01-20T05:39:15.081133Z"/>
+<entry
+   name="BuildSpeechActivity.java"
+   revision="12726"
+   checksum="4e01d0471303f1986d3212b0358553e3"
+   last-author="101062319"
+   committed-rev="12726"
+   text-time="2014-01-23T01:42:19.731000Z"
+   kind="file"
+   committed-date="2014-01-23T01:43:49.421000Z"/>
+<entry
+   name="MainActivity.java"
+   checksum="e887d84ebb2a1eafb0fcc0472da7444c"
+   last-author="101062319"
+   committed-rev="12485"
+   text-time="2014-01-21T08:04:49.116000Z"
+   kind="file"
+   committed-date="2014-01-21T08:04:49.116054Z"/>
+<entry
+   name="QuestionAdapter.java"
+   checksum="58149c7ba0866aaebb9948579847991a"
+   last-author="101062319"
+   committed-rev="12673"
+   text-time="2014-01-22T15:11:29.659000Z"
+   kind="file"
+   committed-date="2014-01-22T16:05:30.427000Z"/>
+<entry
+   name="QuestionInfoActivity.java"
+   revision="12691"
+   checksum="aa321170eb2e91f2c3d9f53cccc240a2"
+   last-author="101062319"
+   committed-rev="12691"
+   text-time="2014-01-22T18:22:48.652000Z"
+   kind="file"
+   committed-date="2014-01-22T19:24:01.992000Z"/>
+<entry
+   name="QuestionModel.java"
+   checksum="d5afb74eb68e9b811e20c38a78f012d2"
+   last-author="101062319"
+   text-time="2014-01-22T03:26:03.445000Z"
+   committed-rev="12563"
+   kind="file"
+   committed-date="2014-01-22T03:42:05.519000Z"/>
+<entry
+   name="SpeechAdapter.java"
+   revision="12744"
+   checksum="b460b163beda19a4d5ef412afa343150"
+   last-author="101062319"
+   text-time="2014-01-23T04:28:12.795000Z"
+   committed-rev="12744"
+   kind="file"
+   committed-date="2014-01-23T05:16:06.835000Z"/>
+<entry
+   name="SpeechIndexActivity.java"
+   revision="12738"
+   checksum="8ba594483550d52b1791dee7dfbf23f2"
+   last-author="101062319"
+   text-time="2014-01-23T02:39:59.130000Z"
+   committed-rev="12738"
+   kind="file"
+   committed-date="2014-01-23T04:06:07.817000Z"/>
+<entry
+   name="SpeechInfoActivity.java"
+   revision="12680"
+   checksum="dab549b941aa541667b5a54c1d11b744"
+   last-author="101062319"
+   committed-rev="12680"
+   text-time="2014-01-22T17:32:25.288000Z"
+   kind="file"
+   committed-date="2014-01-22T17:39:19.627000Z"/>
+<entry
+   name="SpeechModel.java"
+   revision="12723"
+   checksum="db522471e4e6c18e895ccceaca0b1e4d"
+   last-author="101062319"
+   text-time="2014-01-23T01:22:31.354000Z"
+   committed-rev="12723"
+   kind="file"
+   committed-date="2014-01-23T01:32:45.342000Z"/>
+<entry
+   name="SpeechSearchActivity.java"
+   revision="12738"
+   checksum="214a6eb560e9b549ba9c109d6c5bf636"
+   last-author="101062319"
+   committed-rev="12738"
+   text-time="2014-01-23T02:41:19.891000Z"
+   kind="file"
+   committed-date="2014-01-23T04:06:07.817000Z"/>
+<entry
+   name="WelcomeActivity.java"
+   checksum="811af8b3a5dff5036f4c9b09015b2644"
+   last-author="101062319"
+   text-time="2014-01-21T09:18:55.316000Z"
+   committed-rev="12504"
+   kind="file"
+   committed-date="2014-01-21T09:18:55.316948Z"/>
+</wc-entries>

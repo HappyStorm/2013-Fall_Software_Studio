@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12678"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/bin/res/crunch/drawable-ldpi"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   committed-rev="12485"
+   kind="dir"
+   committed-date="2014-01-21T08:04:49.116054Z"/>
+<entry
+   name="icon.png"
+   checksum="17aed10f37d5b4ba51df266dc0210eae"
+   last-author="101062319"
+   text-time="2014-01-20T14:42:35.410000Z"
+   committed-rev="12408"
+   kind="file"
+   committed-date="2014-01-20T14:47:20.181000Z"
+   prop-time="2014-01-20T14:59:11.944000Z"/>
+<entry
+   name="logo_v2.9.png"
+   checksum="6a5cf92f0bcff63cb2135118dc75577e"
+   last-author="101062319"
+   committed-rev="12485"
+   text-time="2014-01-21T08:04:49.116000Z"
+   kind="file"
+   committed-date="2014-01-21T08:04:49.116054Z"
+   prop-time="2014-01-21T08:37:14.561000Z"/>
+</wc-entries>

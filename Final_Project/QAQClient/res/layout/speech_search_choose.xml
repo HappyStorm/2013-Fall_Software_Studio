@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/speech_search_choose_ListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_search_choose_SortTitle"
+        android:layout_below="@+id/sort_Group"
+        android:layout_marginTop="16dp"
+        android:text="List by:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/list_Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_search_choose_ListTitle"
+        android:layout_below="@+id/speech_search_choose_ListTitle"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/list_by_Ascend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Ascend" />
+
+        <RadioButton
+            android:id="@+id/list_by_Descend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Descend" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/speech_search_choose_SortTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        android:text="Sort by:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/sort_Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/list_Group"
+        android:layout_below="@+id/speech_search_choose_SortTitle"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/sort_by_Distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Distance" />
+
+        <RadioButton
+            android:id="@+id/sort_by_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Date" />
+
+        <RadioButton
+            android:id="@+id/sort_by_TopicName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="TopicName" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/speech_search_choose_Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/speech_search_choose_Search"
+        android:layout_alignBottom="@+id/speech_search_choose_Search"
+        android:layout_marginLeft="47dp"
+        android:layout_toRightOf="@+id/sort_Group"
+        android:text="Cancel"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:shadowColor="#ff000000"  
+	    android:shadowDx="0.5"  
+	    android:shadowDy="0.5"       
+	    android:shadowRadius="0.15"/>
+
+    <TextView
+        android:id="@+id/speech_search_choose_Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/list_Group"
+        android:layout_below="@+id/list_Group"
+        android:layout_marginTop="30dp"
+        android:text="Search it!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:shadowColor="#ff000000"  
+	    android:shadowDx="0.5"  
+	    android:shadowDy="0.5"       
+	    android:shadowRadius="0.15" 
+        />
+
+</RelativeLayout>

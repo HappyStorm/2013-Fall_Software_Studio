@@ -1,0 +1,13 @@
+private final double EARTH_RADIUS = 6378137.0;
+
+private double gps_dis(double lat_a, double long_a, double lat_b, double long_b) {
+double radlat_a = (lat_a * Math.PI / 180.0);
+double radlat_b = (lat_b * Math.PI / 180.0);
+double dif_lat = radlat_a - radlat_b;
+double dif_long = (lng_a - lng_b) * Math.PI / 180.0;
+double dis = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(dif_lat / 2), 2)+ Math.cos(radlat_a) * Math.cos(radlat_b)
+* Math.pow(Math.sin(dif_long / 2), 2)));
+dis = dis * EARTH_RADIUS;
+dis = Math.Round(dis * 10000) / 10000;
+return dis;
+}

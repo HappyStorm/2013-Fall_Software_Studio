@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/target"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="classes"
+   kind="dir"/>
+<entry
+   name="m2e-wtp"
+   kind="dir"/>
+<entry
+   name="maven-archiver"
+   kind="dir"/>
+<entry
+   name="netdb-ask-0.0.1-SNAPSHOT"
+   kind="dir"/>
+<entry
+   name="netdb-ask-0.0.1-SNAPSHOT.war"
+   revision="12725"
+   checksum="5335ab4b525a5c389d74a4e4d62fd771"
+   last-author="101062319"
+   committed-rev="12725"
+   text-time="2014-01-23T01:42:39.514000Z"
+   kind="file"
+   committed-date="2014-01-23T01:43:31.855000Z"
+   prop-time="2014-01-17T13:26:04.534000Z"/>
+<entry
+   name="surefire"
+   kind="dir"/>
+<entry
+   name="test-classes"
+   kind="dir"/>
+</wc-entries>

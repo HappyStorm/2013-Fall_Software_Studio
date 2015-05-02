@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+	font-size: 14px;
+}
+
+select {
+	font-size: 14px;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0;
+	/*padding: 0;*/
+}
+
+input {
+	font-size: 14px;
+}
+
+label {
+	padding: 2px 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+.clear {
+	clear: both;
+	display: none;
+}
+

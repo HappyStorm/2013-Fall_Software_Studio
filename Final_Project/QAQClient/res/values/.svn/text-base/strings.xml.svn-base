@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Main</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+
+    <string name="title_activity_speech_search">   《Speech Search》</string>
+    <string name="title_activity_welcome">   Welcome to QAQ   </string>
+    <string name="title_activity_build_speech">   《Build your speech》</string>
+    <string name="title_activity_speech_index">   《Speech Home》</string>
+    <string name="title_activity_speech_info">   《Speech Info》</string>
+    <string name="title_activity_add_question">   《Ask your question》</string>
+    <string name="title_activity_question_info">   《Question Info》</string>
+
+    
+    
+    <string name="welcome_search_textbutton">search</string>
+    
+    
+    
+    <string name="main_search_textbutton">search</string>
+    <string name="main_build_textbutton">build</string>
+    <string name="main_exit_textbutton">Exit</string>
+    
+    
+    
+    <string name="speech_search_find_button">Find it!</string>
+    <string name="speech_search_back_button">←Back</string>
+    <string name="speech_search_menu_list_date">date</string>
+    <string name="speech_search_menu_list_name">name</string>
+    <string name="speech_search_menu_search">search</string>
+    <string name="speech_search_menu_search_hint">Touch here to find</string>
+    <string name="speech_search_distance">to you</string>
+    <string name="speech_search_date">Date :</string>
+    
+    
+    
+	<string name="speech_build_index">※ Speech Build ※ </string>
+	<string name="speech_build_topic">Topic : </string>
+	<string name="speech_build_speaker">Speaker : </string>
+	<string name="speech_build_description">Description : </string>
+    <string name="speech_build_build_button">Build it!</string>
+    <string name="speech_build_cancel_button">Cancel</string>
+    <string name="speech_build_reset_button">Reset</string>
+    <string name="speech_build_topic_hint">Input speech topic</string>
+    <string name="speech_build_speaker_hint">Input the name of speaker</string>
+    <string name="speech_build_description_hint">Input basic description</string>
+    
+    
+    
+    <string name="speech_index_topic"></string>
+    <string name="speech_index_speaker"></string>
+    <string name="speech_index_description"></string>
+    <string name="speech_index_back_Button">←Back</string>
+    
+    
+    
+    
+    <string name="speech_info_index">《Info》</string>
+    <string name="speech_info_topic">Topic:</string>
+    <string name="speech_info_speaker">Speaker:</string>
+    <string name="speech_info_description">Description:</string>
+    <string name="speech_info_topic_content"></string>
+    <string name="speech_info_speaker_content"></string>
+    <string name="speech_info_description_content"></string>
+    <string name="speech_info_latitude">Latitude: </string>
+    <string name="speech_info_longitude">Longitude: </string>
+    <string name="speech_info_latitude_content"></string>
+    <string name="speech_info_longitude_content"></string>
+    <string name="speech_info_back_button">←Back</string>
+    
+    
+    
+    <string name="add_question_index">※ Ask question ※</string>
+    <string name="add_question_ask_button">Ask it!</string>
+    <string name="add_question_cancel_button">Cancel</string>
+    <string name="add_question_reset_button">Reset</string>
+    <string name="add_question_title">Title :</string>
+    <string name="add_question_content">Content :</string>
+    <string name="add_question_add_icon">Add</string>
+    <string name="add_question_title_hint">Input question title</string>
+    <string name="add_question_content_hint">Input question content</string>
+    
+    
+    
+    <string name="question_info_index">《Info》</string>
+    <string name="question_info_like_button">Me too!</string>
+    <string name="question_info_like_button_like">Agree</string>
+    <string name="question_info_like_button_dislike">Disagree</string>
+    <string name="question_info_back_button">←Back</string>
+    <string name="question_info_title">Title</string>
+    <string name="question_info_text">Content</string>
+    <string name="question_info_title_content"></string>
+    <string name="question_info_text_content"></string>
+    
+    <string name="question_item_like">Like : </string>
+    
+</resources>

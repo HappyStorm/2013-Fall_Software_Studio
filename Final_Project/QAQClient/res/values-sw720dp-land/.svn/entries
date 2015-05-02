@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12678"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/res/values-sw720dp-land"
+   committed-rev="12128"
+   kind="dir"
+   committed-date="2014-01-17T13:15:23.099000Z"/>
+<entry
+   name="dimens.xml"
+   checksum="dcc353a80efd5966311bffc9e101dc58"
+   last-author="101062319"
+   text-time="2014-01-17T10:14:47.395000Z"
+   committed-rev="12128"
+   kind="file"
+   committed-date="2014-01-17T13:15:23.099000Z"/>
+</wc-entries>

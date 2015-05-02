@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+	font-weight: bold;
+}
+
+input,textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	border-color: #8E8F8F;
+}
+
+#logo {
+	font-weight: bold;
+}
+
+.logo-netdb {
+	color: #426BDF;
+}
+
+.logo-a {
+	color: #D63627;
+}
+
+.logo-s {
+	color: #F7AA07;
+}
+
+.logo-k {
+	color: #35AA47;
+}
+
+.nav-item-focus {
+	background-color: #E3E9FF;
+}
+
+#askbtn {
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #426BDF;
+	border-color: #2F5BB7;
+}
+
+#display-area {
+	border-color: #A0A0A0 #B9B9B9 #B9B9B9 #B9B9B9;
+}
+
+#definition-title {
+	font-weight: bold;
+	color: #3B5998;
+}
+
+#comment-tab {
+	font-weight: bold;
+	color: #3B5998;
+	background-color: #F6F6F6;
+}
+
+.list-comment-over {
+	background-color: #F6F6F6;
+}
+
+.list-comment-title {
+	font-weight: bold;
+}
+
+.list-comment-stamp {
+	color: #5E5F5F;
+	font-style: italic;
+}
+
+.comment-content {
+	background-color: #F6F6F6;
+}
+
+#list-area {
+	list-style-type: none;
+}
+
+#list-area li {
+	border-bottom: 1px solid #D2D9E7;
+}
+
+#list-top-bar {
+	border-color: #D2D9E7;
+}
+
+.footer {
+	color: #5E5F5F;
+}

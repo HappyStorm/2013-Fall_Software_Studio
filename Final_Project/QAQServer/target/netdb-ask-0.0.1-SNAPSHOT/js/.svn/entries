@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/target/netdb-ask-0.0.1-SNAPSHOT/js"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="common.js"
+   checksum="ea0aea6f5d5aabdc976423ca4ac3ce61"
+   last-author="101062319"
+   text-time="2014-01-08T12:47:55.753000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="index.js"
+   checksum="481884ecc21f2d545c62c5d5f31e6a25"
+   last-author="101062319"
+   text-time="2014-01-08T12:47:27.122000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+</wc-entries>

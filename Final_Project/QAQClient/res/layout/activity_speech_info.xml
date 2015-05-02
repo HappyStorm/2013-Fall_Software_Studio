@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    		xmlns:tools="http://schemas.android.com/tools"
+     		android:layout_width="match_parent"
+     		android:layout_height="match_parent" >
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/information"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SpeechInfoActivity" >
+
+    <TextView
+        android:id="@+id/speech_info_back_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:onClick="back"
+        android:text="@string/speech_info_back_button"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="@color/LightYellow"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:shadowColor="#ff000000"  
+	    android:shadowDx="2"  
+	    android:shadowDy="2"       
+	    android:shadowRadius="1"/>
+
+    <TextView
+        android:id="@+id/speech_info_Index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/speech_info_back_Button"
+        android:text="@string/speech_info_index"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/speech_info_Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_info_Latitude"
+        android:layout_below="@+id/speech_info_Latitude"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/speech_info_longitude" />
+
+    <TextView
+        android:id="@+id/speech_info_latitude_Content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/speech_info_Latitude"
+        android:layout_alignBottom="@+id/speech_info_Latitude"
+        android:layout_alignRight="@+id/speech_info_Index"
+        android:layout_marginRight="57dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/speech_info_Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_info_back_Button"
+        android:layout_below="@+id/speech_info_Index"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/speech_info_latitude"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/speech_info_Topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_info_Longitude"
+        android:layout_below="@+id/speech_info_Longitude"
+        android:layout_marginTop="40dp"
+        android:text="@string/speech_info_topic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/speech_info_topic_Content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_info_Topic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/speech_info_Speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_info_Topic"
+        android:layout_below="@+id/speech_info_topic_Content"
+        android:layout_marginTop="38dp"
+        android:text="@string/speech_info_speaker"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/speech_info_speaker_Content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_info_topic_Content"
+        android:layout_below="@+id/speech_info_Speaker"
+        android:layout_marginTop="41dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/speech_info_description_Content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_info_speaker_Content"
+        android:layout_below="@+id/speech_info_Description"
+        android:layout_marginTop="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/speech_info_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_info_Speaker"
+        android:layout_below="@+id/speech_info_speaker_Content"
+        android:layout_marginTop="42dp"
+        android:text="@string/speech_info_description"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/speech_info_longitude_Content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  
+        android:layout_alignBaseline="@+id/speech_info_Longitude"
+        android:layout_alignBottom="@+id/speech_info_Longitude"
+        android:layout_alignRight="@+id/speech_info_Index"
+        android:layout_marginRight="57dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
+
+</ScrollView>

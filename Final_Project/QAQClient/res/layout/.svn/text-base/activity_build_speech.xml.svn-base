@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    		xmlns:tools="http://schemas.android.com/tools"
+     		android:layout_width="match_parent"
+     		android:layout_height="match_parent" >
+<RelativeLayout 
+			    android:gravity="right"
+			    android:paddingBottom="@dimen/activity_vertical_margin"
+			    android:paddingLeft="@dimen/activity_horizontal_margin"
+			    android:paddingRight="@dimen/activity_horizontal_margin"
+			    android:paddingTop="@dimen/activity_vertical_margin"
+			    tools:context=".Build" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/build1"
+			    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/speech_build_Topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_build_Index"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/speech_build_topic"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/speech_build_Speaker"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/speech_build_TopicEdit"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="100dp"
+	    android:text="@string/speech_build_speaker"
+	    android:textSize="30sp"
+	    android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/speech_build_Description"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/speech_build_SpeakerEdit"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="100dp"
+	    android:text="@string/speech_build_description"
+	    android:textSize="30sp"
+	    android:textStyle="bold" />
+    
+    <EditText
+        android:id="@+id/speech_build_TopicEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_build_Topic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="@string/speech_build_topic_hint"
+        android:singleLine="true"
+        android:textSize="20sp" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/speech_build_SpeakerEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_build_Speaker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="@string/speech_build_speaker_hint"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/speech_build_DescriptionEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_build_Description"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="@string/speech_build_description_hint"
+        android:inputType="textMultiLine"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/speech_build_setup_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speech_build_DescriptionEdit"
+        android:layout_below="@+id/speech_build_DescriptionEdit"
+        android:layout_marginTop="80dp"
+        android:clickable="true"
+        android:onClick="build"
+        android:text="@string/speech_build_build_button"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/LightYellow"
+        android:textSize="25sp" 
+        android:shadowColor="#ff000000"  
+	    android:shadowDx="3.5"  
+	    android:shadowDy="3.5"       
+	    android:shadowRadius="2"/>
+
+    <TextView
+        android:id="@+id/speech_build_cancel_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/speech_build_DescriptionEdit"
+        android:layout_alignTop="@id/speech_build_setup_Button"
+        android:layout_below="@+id/speech_build_DescriptionEdit"
+        android:clickable="true"
+        android:onClick="cancel"
+        android:text="@string/speech_build_cancel_button"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/LightYellow"
+        android:textSize="25sp"
+        android:shadowColor="#ff000000"  
+	    android:shadowDx="3.5"  
+	    android:shadowDy="3.5"       
+	    android:shadowRadius="2" />
+
+     <TextView
+         android:id="@+id/speech_build_reset_Button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@id/speech_build_setup_Button"
+         android:layout_below="@+id/speech_build_DescriptionEdit"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:onClick="reset"
+         android:text="@string/speech_build_reset_button"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="@color/LightYellow"
+         android:textSize="25sp"
+         android:shadowColor="#ff000000"  
+	   	 android:shadowDx="3.5"  
+	   	 android:shadowDy="3.5"       
+	  	 android:shadowRadius="2"/>
+
+     <TextView
+         android:id="@+id/speech_build_Index"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="70dp"
+         android:text="@string/speech_build_index"
+         android:textSize="30sp"
+         android:textStyle="bold" />
+
+</RelativeLayout>
+</ScrollView>

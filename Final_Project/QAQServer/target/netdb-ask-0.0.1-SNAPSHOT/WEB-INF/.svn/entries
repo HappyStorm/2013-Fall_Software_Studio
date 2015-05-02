@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/target/netdb-ask-0.0.1-SNAPSHOT/WEB-INF"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="appengine-web.xml"
+   checksum="a61db1d4133383c8760056fb3733ad97"
+   last-author="101062319"
+   text-time="2014-01-17T11:30:13.803000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="classes"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="web.xml"
+   revision="12338"
+   checksum="e351f27582e5ad85bf4e38992aa7d6de"
+   last-author="101062319"
+   text-time="2014-01-20T06:05:41.492000Z"
+   committed-rev="12338"
+   kind="file"
+   committed-date="2014-01-20T06:30:42.513000Z"/>
+</wc-entries>

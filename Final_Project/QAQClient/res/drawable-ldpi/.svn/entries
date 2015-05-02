@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12678"
+   last-author="101062319"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/res/drawable-ldpi"
+   committed-rev="12639"
+   kind="dir"
+   committed-date="2014-01-22T11:30:14.079852Z"/>
+<entry
+   name="build1.jpg"
+   checksum="af725aeead41a75e183fed6ebc5094d5"
+   last-author="101062319"
+   text-time="2014-01-21T13:16:54.264000Z"
+   committed-rev="12523"
+   kind="file"
+   committed-date="2014-01-21T13:16:54.264727Z"
+   prop-time="2014-01-21T13:46:20.294000Z"/>
+<entry
+   name="icon.png"
+   checksum="0b222c902f182dd301ee7602d64c39b8"
+   last-author="101062319"
+   committed-rev="12405"
+   text-time="2014-01-20T14:29:01.452000Z"
+   kind="file"
+   committed-date="2014-01-20T14:29:01.452422Z"
+   prop-time="2014-01-20T14:42:06.221000Z"/>
+<entry
+   name="icon_black.jpg"
+   checksum="24d7686c8409593740f45298d4fef909"
+   last-author="101062319"
+   committed-rev="12405"
+   text-time="2014-01-20T14:29:01.452000Z"
+   kind="file"
+   committed-date="2014-01-20T14:29:01.452422Z"
+   prop-time="2014-01-20T14:42:06.202000Z"/>
+<entry
+   name="information.jpg"
+   checksum="d5193cc721525d7c60492f96671517e9"
+   last-author="101062319"
+   committed-rev="12639"
+   text-time="2014-01-22T11:30:14.079000Z"
+   kind="file"
+   committed-date="2014-01-22T11:30:14.079852Z"
+   prop-time="2014-01-22T11:34:03.785000Z"/>
+<entry
+   name="logo.jpg"
+   checksum="c80c7f2ddfc8b35c983f92e002dd6335"
+   last-author="101062319"
+   committed-rev="12485"
+   text-time="2014-01-21T08:04:49.116000Z"
+   kind="file"
+   committed-date="2014-01-21T08:04:49.116054Z"
+   prop-time="2014-01-21T08:37:14.961000Z"/>
+<entry
+   name="logo_v2.9.png"
+   checksum="3ced16bab48b46d675fcd0dcd7c38e80"
+   last-author="101062319"
+   committed-rev="12485"
+   text-time="2014-01-21T08:04:49.116000Z"
+   kind="file"
+   committed-date="2014-01-21T08:04:49.116054Z"
+   prop-time="2014-01-21T08:37:14.975000Z"/>
+<entry
+   name="main.jpg"
+   checksum="e15e5737a50207191528ee3d1769564f"
+   last-author="101062319"
+   text-time="2014-01-21T13:16:54.264000Z"
+   committed-rev="12523"
+   kind="file"
+   committed-date="2014-01-21T13:16:54.264727Z"
+   prop-time="2014-01-21T13:46:20.315000Z"/>
+<entry
+   name="wlcome.jpg"
+   checksum="36f0d6a0bfadadac2e8d009fd965c85f"
+   last-author="101062319"
+   text-time="2014-01-19T09:41:07.589000Z"
+   committed-rev="12276"
+   kind="file"
+   committed-date="2014-01-19T09:48:24.159000Z"
+   prop-time="2014-01-19T10:00:32.876000Z"/>
+</wc-entries>

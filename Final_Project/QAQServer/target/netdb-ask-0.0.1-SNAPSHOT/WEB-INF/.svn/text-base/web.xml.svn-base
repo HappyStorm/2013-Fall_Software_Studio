@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    xsi:schemaLocation="
+        http://java.sun.com/xml/ns/javaee
+        http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    version="2.5">
+	
+	<filter>
+        <filter-name>ObjectifyFilter</filter-name>
+        <filter-class>com.googlecode.objectify.ObjectifyFilter</filter-class>
+	</filter>
+	<filter-mapping>
+	        <filter-name>ObjectifyFilter</filter-name>
+	        <url-pattern>/*</url-pattern>
+	</filter-mapping>    
+
+//----------------------Speech----------------------	
+	
+	
+	//------Speech-Controller------
+	<servlet>
+		<servlet-name>speech-controller</servlet-name>
+		<servlet-class>netdb.courses.softwarestudio.qaqserver.mvc.control.SpeechController</servlet-class>
+	</servlet>         
+	<servlet-mapping>
+		<servlet-name>speech-controller</servlet-name>
+		<url-pattern>/speech/*</url-pattern>
+	</servlet-mapping>
+	//-----------------------------
+	
+	
+	//------Speech-Dao------
+	<servlet>
+		<servlet-name>speech-dao</servlet-name>
+		<servlet-class>netdb.courses.softwarestudio.qaqserver.mvc.model.business.persistence.SpeechDao</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>speech-dao</servlet-name>
+		<url-pattern>/model/business/persistence/speech-dao</url-pattern>
+	</servlet-mapping>
+	//----------------------
+	
+	
+	//------Speech-Controller-JsonView------
+	<servlet>
+		<servlet-name>speech-controller-json-view</servlet-name>
+		<servlet-class>netdb.courses.softwarestudio.qaqserver.mvc.view.SpeechJsonView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>speech-controller-json-view</servlet-name>
+		<url-pattern>/view/speech-json-view</url-pattern>
+	</servlet-mapping>
+	//---------------------------------------
+	
+	
+//----------------------Question----------------------	
+	
+	
+	//------Question-Controller------
+	<servlet>
+		<servlet-name>question-controller</servlet-name>
+		<servlet-class>netdb.courses.softwarestudio.qaqserver.mvc.control.QuestionController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>question-controller</servlet-name>
+		<url-pattern>/question/*</url-pattern>
+	</servlet-mapping>
+	//-------------------------------
+	
+	
+	//------Question-Dao------
+	<servlet>
+		<servlet-name>question-dao</servlet-name>
+		<servlet-class>netdb.courses.softwarestudio.qaqserver.mvc.model.business.persistence.QuestionDao</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>question-dao</servlet-name>
+		<url-pattern>/model/business/persistence/question-dao</url-pattern>
+	</servlet-mapping>
+	//-------------------------
+	
+	
+	//------Question-Controller-JsonView------
+	<servlet>
+		<servlet-name>question-controller-json-view</servlet-name>
+		<servlet-class>netdb.courses.softwarestudio.qaqserver.mvc.view.QuestionJsonView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>question-controller-json-view</servlet-name>
+		<url-pattern>/view/question-json-view</url-pattern>
+	</servlet-mapping>	
+	//----------------------------------------
+	
+	
+//--------------------------------------------------------------------------------------------------------------	
+	
+	<servlet>
+		<servlet-name>400-bad-request-view</servlet-name>
+		<servlet-class>netdb.courses.softwarestudio.qaqserver.mvc.view.Http400BadRequestView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>400-bad-request-view</servlet-name>
+		<url-pattern>/view/400-bad-request-view</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>404-not-found-view</servlet-name>
+		<servlet-class>netdb.courses.softwarestudio.qaqserver.mvc.view.Http404NotFoundView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>404-not-found-view</servlet-name>
+		<url-pattern>/view/404-not-found-view</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>406-not-acceptable-view</servlet-name>
+		<servlet-class>netdb.courses.softwarestudio.qaqserver.mvc.view.Http406NotAcceptableView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>406-not-acceptable-view</servlet-name>
+		<url-pattern>/view/406-not-acceptable-view</url-pattern>
+	</servlet-mapping>
+	
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    
+    	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Internal URLs</web-resource-name>
+			<url-pattern>/model/*</url-pattern>
+			<url-pattern>/view/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>
+	
+    <listener>
+		<listener-class>netdb.courses.softwarestudio.qaqserver.service.objectify.ObjectifyInitializer</listener-class>
+	</listener>
+    	
+</web-app>

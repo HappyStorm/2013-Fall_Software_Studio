@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+body {
+	overflow-y: scroll;
+}
+
+#logo {
+	text-align: center;
+	font-size: 36px;
+	padding: 8px;
+}
+
+.content-hidden {
+	display: none;
+}
+
+.main-area {
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+#askbar {
+	text-align: center;
+	width: 540px;
+	margin: 30px auto 0 auto;
+}
+
+#askinput {
+	width: 450px;
+	height: 20px;
+	padding: 4px 4px 4px 4px; 
+	border-width : 1px 1px 1px 1px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+}
+
+#askbtn {
+	padding: 2px;
+	margin: 0px;
+	width: 70px;
+	height: 30px;
+	border-width: 1px 1px 1px 0;
+	border-style: solid;
+}
+
+#display-area {
+	width: 370px;
+	padding: 5px 0px 2px 0px; 
+	border-style : solid;
+	border-width: 1px;
+	margin: 40px auto 0 auto;
+}
+
+#answer-area {
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#comment-area {
+	margin-top: 5px;
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#loading,#list-loading { /* img is an inline element in XHTML strict */
+	text-align: center;
+}
+
+#list-loading {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#answer {
+	padding: 6px;
+	font-size: 14px;
+}
+
+#def-form {
+	font-size: 14px;
+}
+
+#def-form input {
+	padding: 1px;
+	float: right;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+
+#def-form fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+	border-style: solid;
+	border-width: 0;
+	text-align: center;
+}
+
+#definition {
+	border-width: 1px;
+	margin: 4px 0 4px 0;
+	padding: 0;
+	width: 348px;
+}
+
+#comment-tab {
+	padding: 5px 0 5px 0;
+}
+
+#comment-area input,textarea {
+	font-size: 14px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+
+#list-loading img {
+	display: block;
+	margin: 0px auto;
+}
+
+#list-top-bar {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.comments-loaded #list-area {
+	display: block;
+}
+
+.list-no-comment {
+	text-align: center;
+}
+
+.list-comment-id {
+	display: none;
+}
+
+.list-comment-title {
+	margin-right: 10px;
+}
+
+.list-comment-text {
+	padding: 6px 2px 0 0;
+}
+
+.list-comment-stamp {
+	text-align: right;
+}
+
+.list-comment img {
+	display: none;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+}
+
+.list-comment-over img {
+	cursor: pointer;
+	display: block;
+}
+
+#pre-comment-form fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+}
+
+#pre-comment {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	width: 348px;
+}
+
+#comment-form {
+	margin: 4px;
+}
+
+#comment-form fieldset {
+	margin: 0;
+	padding: 4px 0 0 0;
+	border-style: none;
+	border-width: 0;
+}
+
+#comment-form #submit {
+	float: right;
+}
+
+.col-1 {
+	float: left;
+	text-align: right;
+	width: 35px;
+	margin: 0 4px 4px 0;
+}
+
+.col-2 {
+	float: left;
+	width: 305px;
+	margin: 0 0 4px 0;
+}
+
+#list-area {
+	margin: 0;
+	padding: 0;
+}
+
+#list-area li {
+	margin-top: 1px;
+	padding: 6px;
+	display: list-item;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 40px;
+}

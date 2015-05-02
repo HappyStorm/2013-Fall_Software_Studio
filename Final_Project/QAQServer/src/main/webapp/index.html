@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>Don't ask NetDB</title>
+<link type="text/css" href="css/structure/index.css" rel="stylesheet" />
+<link type="text/css" href="css/structure/common.css" rel="stylesheet" />
+<link type="text/css" href="css/theme/index.css" rel="stylesheet" />
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="main-area">
+		<div id="logo">
+			<span class="logo-netdb">Don't</span><span>&nbsp;</span><span
+				class="logo-a">A</span><span class="logo-s">s</span><span
+				class="logo-k">k</span><span>&nbsp;</span><span class="logo-netdb">NetDB!</span>
+		</div>
+		<div id="askbar">
+			<input id="askinput" name="question" type="text" /><input
+				id="askbtn" type="submit" value=" Ask Me!" /> <span id="asktitle"
+				class="content-hidden"></span>
+		</div>
+		<div id="display-area" class="content-hidden">
+			<div id="answer-area">
+				<div id="loading" class="content-hidden">
+					<img src="image/loading.gif" alt="loading" />
+				</div>
+				<div id="definition-title" class="content-hidden"></div>
+				<div id="answer" title="Click to modify the definition"
+					class="content-hidden"></div>
+				<form id="def-form" class="content-hidden" action="">
+					<fieldset>
+						<textarea id="definition" name="definition" class="inputarea" rows="3" cols="20"></textarea>
+						<input type="submit" value="Modify" /> <input id="cancel-button"
+							type="button" value="Cancel" />
+					</fieldset>
+				</form>
+			</div>
+			<div id="comment-area" class="content-hidden">
+				<div id="comment-tab">&nbsp;Comment&nbsp;</div>
+				<div id="comment-list" class="comment-content">
+					<div id="list-loading" class="content-hidden">
+						<img src="image/loading.gif" alt="loading" />
+					</div>
+					<ul id="list-area">
+						<li />
+					</ul>
+					<form id="pre-comment-form" action="">
+						<fieldset>
+							<input id="pre-comment" type="text" value="Add comment..." />
+						</fieldset>
+					</form>
+					<form id="comment-form" action="" class="content-hidden">
+						<fieldset>
+							<label for="comment-title" class="col-1">Title:</label> <input
+								id="comment-title" name="comment-title" type="text"
+								class="col-2" /> <label for="comment-text" class="col-1">Text:</label>
+							<textarea id="comment-text" name="comment-text" class="col-2"
+								rows="3" cols="20"></textarea>
+							<span class="col-1">&nbsp;</span> <input id="submit"
+								type="submit" value="Post" /> <br class="clear" />
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer">Copyright 2010-2012 by NTHU NetDB Lab.</div>
+	</div>
+</body>
+</html>

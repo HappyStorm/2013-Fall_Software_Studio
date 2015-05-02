@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/src/main/java/netdb/courses/softwarestudio/qaqserver/mvc/model/business/persistence"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="DefinitionDao.java"
+   revision="12145"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="DefinitionWikiParser.java"
+   revision="12153"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="QuestionDao.java"
+   revision="12693"
+   checksum="c21031fe0cbe1771565e4b3e8f9c9913"
+   last-author="101062319"
+   committed-rev="12693"
+   text-time="2014-01-22T19:25:00.544000Z"
+   kind="file"
+   committed-date="2014-01-22T19:25:44.079000Z"/>
+<entry
+   name="SpeechDao.java"
+   revision="12725"
+   checksum="9a821fb96d72222daddfcd80b26b8b11"
+   last-author="101062319"
+   text-time="2014-01-23T01:42:17.589000Z"
+   committed-rev="12725"
+   kind="file"
+   committed-date="2014-01-23T01:43:31.855000Z"/>
+</wc-entries>

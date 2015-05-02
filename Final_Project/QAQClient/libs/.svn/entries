@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12678"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/libs"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   committed-rev="12648"
+   kind="dir"
+   committed-date="2014-01-22T12:12:30.502613Z"/>
+<entry
+   name="android-support-v4.jar"
+   checksum="8ec28ddd6c1b954bfa1fa54c5df54eba"
+   last-author="101062319"
+   committed-rev="12250"
+   text-time="2014-01-18T18:54:10.788000Z"
+   kind="file"
+   committed-date="2014-01-18T18:49:19.618000Z"
+   prop-time="2014-01-17T13:27:51.530000Z"/>
+<entry
+   name="netdb-rest-tool.jar"
+   checksum="bbe0466ce359947780e48b0a52fd00d9"
+   last-author="101062319"
+   text-time="2014-01-22T12:12:20.156000Z"
+   committed-rev="12648"
+   kind="file"
+   committed-date="2014-01-22T12:12:30.502000Z"
+   prop-time="2014-01-22T12:12:32.725000Z"/>
+</wc-entries>

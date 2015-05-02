@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12678"
+   last-author="101062319"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/res/color"
+   committed-rev="12523"
+   kind="dir"
+   committed-date="2014-01-21T13:16:54.264727Z"/>
+<entry
+   name="text.xml"
+   checksum="9cc9a82ad6e94ee625dacce33bf7366c"
+   last-author="101062319"
+   text-time="2014-01-21T13:16:54.264000Z"
+   committed-rev="12523"
+   kind="file"
+   committed-date="2014-01-21T13:16:54.264727Z"/>
+</wc-entries>

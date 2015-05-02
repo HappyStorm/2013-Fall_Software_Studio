@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    xmlns:tools="http://schemas.android.com/tools"
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+			    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/speech_item_Topic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/informationIcon"
+        android:textSize="20sp" 
+        android:shadowColor="#ff000000"  
+	    android:shadowDx="0.5"  
+	    android:shadowDy="0.5"       
+	    android:shadowRadius="0.15"/>
+    
+    <TextView
+        android:id="@+id/speech_item_Description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speech_item_Topic"
+        android:layout_toRightOf="@+id/informationIcon"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/informationIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/speechview" />
+
+    <TextView
+        android:id="@+id/speech_item_Distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/speech_item_Description"
+        android:text="@string/speech_search_distance"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/speech_item_distance_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/speech_item_Distance"
+        android:layout_alignTop="@+id/speech_item_Description"
+        android:layout_toLeftOf="@+id/speech_item_Distance"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/speech_item_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        android:layout_below="@+id/informationIcon"
+        android:layout_marginLeft="17dp"
+        android:gravity="bottom"
+        android:textStyle="italic"
+        android:text="@string/speech_search_date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/speech_item_date_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/speech_item_Date"
+        android:layout_alignBottom="@+id/speech_item_Date"
+        android:layout_toRightOf="@+id/speech_item_Date"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

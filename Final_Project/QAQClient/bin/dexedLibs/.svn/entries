@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   revision="12678"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/bin/dexedLibs"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   committed-rev="12653"
+   kind="dir"
+   committed-date="2014-01-22T12:18:26.214616Z"/>
+<entry
+   name="android-support-v4-241620f4b44262821c7f26bd05bfa754.jar"
+   checksum="6827cfccc0a2e3f6bddc0591f8aad860"
+   last-author="101062319"
+   committed-rev="12281"
+   text-time="2014-01-19T11:02:40.186000Z"
+   kind="file"
+   committed-date="2014-01-19T11:25:39.125000Z"
+   prop-time="2014-01-19T11:37:43.182000Z"/>
+<entry
+   name="google-play-services-fecb118bc2cf78523e3e281cec29e661.jar"
+   checksum="88272ddc5cab1197380d656f08b2f5b8"
+   last-author="101062319"
+   committed-rev="12499"
+   text-time="2014-01-21T08:43:49.981000Z"
+   kind="file"
+   committed-date="2014-01-21T08:50:58.154000Z"
+   prop-time="2014-01-21T08:50:17.614000Z"/>
+<entry
+   name="google-play-services_lib-dd6f9bbbce9a8b6fc95e1f960d3c3fa8.jar"
+   checksum="752e15a8f96a8c63e14dbe6539fcb434"
+   last-author="101062319"
+   committed-rev="12640"
+   text-time="2014-01-22T11:18:55.164000Z"
+   kind="file"
+   committed-date="2014-01-22T11:34:08.833000Z"
+   prop-time="2014-01-19T11:37:43.005000Z"/>
+<entry
+   name="netdb-rest-tool-3be793aca1d9ba7485a2d266a30452de.jar"
+   checksum="2a81bc61693e6b9a468bb0eacc7d85b1"
+   last-author="101062319"
+   committed-rev="12653"
+   text-time="2014-01-22T12:12:55.988000Z"
+   kind="file"
+   committed-date="2014-01-22T12:18:26.214000Z"
+   prop-time="2014-01-19T11:37:43.133000Z"/>
+</wc-entries>

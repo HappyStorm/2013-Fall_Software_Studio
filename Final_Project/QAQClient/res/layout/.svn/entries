@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12678"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQclient/res/layout"
+   uuid="4b93b478-d1e3-4618-9d98-5526bb301a95"
+   committed-rev="12673"
+   kind="dir"
+   committed-date="2014-01-22T16:05:30.427480Z"/>
+<entry
+   name="activity_add_question.xml"
+   checksum="057b368a7589da1d01bc3cbc0109e5f3"
+   last-author="101062319"
+   committed-rev="12659"
+   text-time="2014-01-22T13:36:50.275000Z"
+   kind="file"
+   committed-date="2014-01-22T13:41:05.132000Z"/>
+<entry
+   name="activity_build_speech.xml"
+   revision="12680"
+   checksum="4340bebf076388944efaa34ff5dcf0af"
+   last-author="101062319"
+   text-time="2014-01-22T17:26:23.311000Z"
+   committed-rev="12680"
+   kind="file"
+   committed-date="2014-01-22T17:39:19.627000Z"/>
+<entry
+   name="activity_main.xml"
+   revision="12680"
+   checksum="6bd6105bb3101ab4f8df049c3a5fe2af"
+   last-author="101062319"
+   committed-rev="12680"
+   text-time="2014-01-22T17:24:49.031000Z"
+   kind="file"
+   committed-date="2014-01-22T17:39:19.627000Z"/>
+<entry
+   name="activity_question_info.xml"
+   revision="12738"
+   checksum="3ddf7c3a588720b4bb5994459872e59c"
+   last-author="101062319"
+   text-time="2014-01-23T03:29:12.792000Z"
+   committed-rev="12738"
+   kind="file"
+   committed-date="2014-01-23T04:06:07.817000Z"/>
+<entry
+   name="activity_speech_index.xml"
+   revision="12680"
+   checksum="08998054d72a828edb20b3376101230f"
+   last-author="101062319"
+   committed-rev="12680"
+   text-time="2014-01-22T17:29:34.354000Z"
+   kind="file"
+   committed-date="2014-01-22T17:39:19.627000Z"/>
+<entry
+   name="activity_speech_info.xml"
+   revision="12680"
+   checksum="797ffa19e1ddd9e6e23a76581b03a01a"
+   last-author="101062319"
+   text-time="2014-01-22T17:28:24.898000Z"
+   committed-rev="12680"
+   kind="file"
+   committed-date="2014-01-22T17:39:19.627000Z"/>
+<entry
+   name="activity_speech_search.xml"
+   revision="12680"
+   checksum="3ee59eb9fed3cf82ca0166abb94d0cdd"
+   last-author="101062319"
+   text-time="2014-01-22T17:28:38.691000Z"
+   committed-rev="12680"
+   kind="file"
+   committed-date="2014-01-22T17:39:19.627000Z"/>
+<entry
+   name="activity_welcome.xml"
+   checksum="d299b106ea18bddc29239f28cca8acf9"
+   last-author="101062319"
+   committed-rev="12565"
+   text-time="2014-01-22T03:48:17.575000Z"
+   kind="file"
+   committed-date="2014-01-22T03:48:17.575031Z"/>
+<entry
+   name="question_item.xml"
+   revision="12680"
+   checksum="2f71a819f885a4b42fbd44766ac594ac"
+   last-author="101062319"
+   text-time="2014-01-22T17:20:37.691000Z"
+   committed-rev="12680"
+   kind="file"
+   committed-date="2014-01-22T17:39:19.627000Z"/>
+<entry
+   name="speech_item.xml"
+   revision="12726"
+   checksum="a2b2ed0397a80a5abf76b04455c865c3"
+   last-author="101062319"
+   text-time="2014-01-23T01:37:00.950000Z"
+   committed-rev="12726"
+   kind="file"
+   committed-date="2014-01-23T01:43:49.421000Z"/>
+<entry
+   name="speech_search_choose.xml"
+   revision="12680"
+   checksum="aa1809b93bb5f09e87fa8d42bb3b98c9"
+   last-author="101062319"
+   committed-rev="12680"
+   text-time="2014-01-22T17:23:23.664000Z"
+   kind="file"
+   committed-date="2014-01-22T17:39:19.627000Z"/>
+</wc-entries>

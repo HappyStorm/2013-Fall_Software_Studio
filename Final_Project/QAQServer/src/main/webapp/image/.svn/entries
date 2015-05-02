@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://netdb.cs.nthu.edu.tw/svn"
+   name=""
+   revision="12126"
+   last-author="101062319"
+   url="https://netdb.cs.nthu.edu.tw/svn/courses/software_studio/2013_fall/students/101062319/QAQ/QAQserver/src/main/webapp/image"
+   committed-rev="12126"
+   kind="dir"
+   committed-date="2014-01-17T13:13:59.084000Z"/>
+<entry
+   name="cross.gif"
+   checksum="b3c3be22d480d1267efa53eb04da729f"
+   last-author="101062319"
+   text-time="2013-12-24T14:26:04.575000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:05.139000Z"/>
+<entry
+   name="loading.gif"
+   checksum="dc2fd7c0ed853c56b4ac65710af3bd0a"
+   last-author="101062319"
+   text-time="2013-12-24T14:26:04.575000Z"
+   committed-rev="12126"
+   kind="file"
+   committed-date="2014-01-17T13:13:59.084000Z"
+   prop-time="2014-01-17T13:26:04.699000Z"/>
+</wc-entries>
