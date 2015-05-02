@@ -1,0 +1,65 @@
+package com.example.myfirstapp;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.Intent;
+import android.view.Menu;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class ResultActivity extends Activity 
+{
+	private TextView result_msg;
+	private TextView result_msg1;
+	private ImageView result_ima;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) 
+	{
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_result);
+		
+		
+		Intent newIntent = getIntent();
+		String Height = newIntent.getStringExtra("height");
+		String Weight = newIntent.getStringExtra("weight");
+		double height = Double.parseDouble(Height);
+		double weight = Double.parseDouble(Weight);
+		double BMI = weight/Math.pow(height, 2);
+		
+		result_msg = (TextView)findViewById(R.id.comment_text);
+		result_msg1 = (TextView)findViewById(R.id.result_text);
+		result_ima = (ImageView)findViewById(R.id.imageView1);
+		
+		result_msg1.setText("Your BMI: " + BMI);
+		if(BMI>=24.0)
+		{
+			result_msg.setText("You are too fat!! \n");
+			result_ima.setImageResource(R.drawable.fat);
+		}
+			
+		else if(BMI<18.50)
+		{
+			result_msg.setText("You are too thin!! \n");
+			result_ima.setImageResource(R.drawable.thin);
+		}	
+		else
+		{
+			result_msg.setText("You are OK!! \n");
+			result_ima.setImageResource(R.drawable.normal);
+		}
+			
+		
+		
+	}
+	
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.result, menu);
+		return true;
+	}
+	
+}
