@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="VendingMachineTest.itShouldReturnCorrectDrinkDescription" project="JUnitExercise" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="itShouldReturnCorrectDrinkDescription" classname="netdb.course.ss.lab.testing2.test.VendingMachineTest" time="0.001"/>
+</testrun>

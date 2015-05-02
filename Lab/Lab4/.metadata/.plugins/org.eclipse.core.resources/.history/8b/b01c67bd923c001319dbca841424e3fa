@@ -1,0 +1,60 @@
+package netdb.course.ss.lab.testing2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class VendingMachine implements IVendingMachine 
+{
+
+	public List<Drink> drinklist = new ArrayList<Drink>();
+	
+	
+	@Override
+	public void addDrink(Drink drink) 
+	{
+		// TODO Auto-generated method stub
+		drinklist.add(drink);
+	}
+
+	@Override
+	public int getDrinkCount() 
+	{
+		// TODO Auto-generated method stub
+		return drinklist.size();
+	}
+
+	@Override
+	public int getDrinkFlavorCount() 
+	{
+		// TODO Auto-generated method stub
+		int flavor = 0;
+		int flag;
+		for(int i=0 ; i<drinklist.size() ; i++)
+		{		
+			flag=1;
+			for(int j=0 ; j<i ; j++)
+			{
+				if( (drinklist.get(i).equals(drinklist.get(j)))  )
+				{
+					flag=0;
+					break;
+				}
+			}
+			flavor+=flag;
+		}
+		return flavor;
+	}
+	
+	@Override
+	public String[] getDrinksDescription() 
+	{
+		// TODO Auto-generated method stub	
+		String[] drinkname = new String[getDrinkFlavorCount()];
+		for(int i=0 ; i<getDrinkFlavorCount() ; i++)
+		{		
+			drinkname[i] = drinklist.get(i).toString();
+		}
+		return drinkname;
+	}
+}

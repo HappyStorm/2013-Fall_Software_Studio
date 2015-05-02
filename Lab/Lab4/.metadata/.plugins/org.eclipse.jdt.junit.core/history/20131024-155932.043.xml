@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest" project="JUnitExample" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="netdb.course.ss.lab.testing.test.CalculatorTest" time="0.001">
+    <testcase name="calculatorShouldPlusCorrectly" classname="netdb.course.ss.lab.testing.test.CalculatorTest" time="0.001"/>
+    <testcase name="calculatorShouldMinusCorrectly" classname="netdb.course.ss.lab.testing.test.CalculatorTest" time="0.0"/>
+  </testsuite>
+</testrun>

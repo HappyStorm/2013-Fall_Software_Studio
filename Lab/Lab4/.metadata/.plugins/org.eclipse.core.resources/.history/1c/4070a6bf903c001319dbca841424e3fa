@@ -1,0 +1,36 @@
+package netdb.course.ss.lab.testing2;
+
+public class Drink 
+
+{
+	private String name;
+	
+	public static int id=0;
+	
+	public Drink(String name)
+	{
+		this.name = name;
+		id++;
+	}
+	
+	
+	@Override
+	public String toString()
+	{
+		return name;
+	}
+
+	
+	@Override
+	public boolean equals(Object object)
+	{
+		if(this == object) 
+			return true;
+		
+		if(!(object instanceof Drink)) 
+			return false;
+		
+		Drink drink = (Drink)object;
+		return this.toString().equals(drink.toString());
+	}
+}

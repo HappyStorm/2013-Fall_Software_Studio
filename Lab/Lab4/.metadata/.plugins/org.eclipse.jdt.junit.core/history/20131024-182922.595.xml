@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="VendingMachineTest" project="JUnitExercise" tests="3" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="netdb.course.ss.lab.testing2.test.VendingMachineTest" incomplete="true">
+    <testcase name="itShouldReturnCorrectDrinkCount" classname="netdb.course.ss.lab.testing2.test.VendingMachineTest" incomplete="true"/>
+    <testcase name="itShouldReturnCorrectDrinkFlavorCount" classname="netdb.course.ss.lab.testing2.test.VendingMachineTest" incomplete="true"/>
+    <testcase name="itShouldReturnCorrectDrinkDescription" classname="netdb.course.ss.lab.testing2.test.VendingMachineTest" incomplete="true"/>
+  </testsuite>
+</testrun>
